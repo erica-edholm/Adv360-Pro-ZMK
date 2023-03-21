@@ -1,3 +1,39 @@
+macro_se_circ: macro_se_circ{
+compatible = "zmk,behavior-macro";
+label = "macro_se_circ";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&macro se_diae>;
+};
+macro_se_diae: macro_se_diae{
+compatible = "zmk,behavior-macro";
+label = "macro_se_diae";
+#binding-cells = <0>;
+bindings = <&kp RBRC>;
+};
+macro_se_rbrc: macro_se_rbrc{
+compatible = "zmk,behavior-macro";
+label = "macro_se_rbrc";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp N9>;
+};
+macro_se_lbrc: macro_se_lbrc{
+compatible = "zmk,behavior-macro";
+label = "macro_se_lbrc";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp N8>;
+};
+macro_se_unds: macro_se_unds{
+compatible = "zmk,behavior-macro";
+label = "macro_se_unds";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&macro se_mins>;
+};
+macro_se_mins: macro_se_mins{
+compatible = "zmk,behavior-macro";
+label = "macro_se_mins";
+#binding-cells = <0>;
+bindings = <&kp SLASH>;
+};
 macro_home: macro_home{
 compatible = "zmk,behavior-macro";
 label = "macro_home";

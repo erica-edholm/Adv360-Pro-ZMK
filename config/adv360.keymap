@@ -74,11 +74,11 @@
 
         layer_symbols {
             bindings = <
- &trans         &trans          &trans            &trans             &trans     &trans            &trans                                                  &trans           &trans                &trans                 &trans        &trans         &trans  &trans
- &trans        &kp TAB  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET            &trans                                                  &trans  &kp EXCLAMATION                &kp LT                 &kp GT  &kp KP_EQUAL       &kp AMPS  &trans
- &trans  &kp BACKSLASH       &kp SLASH    &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp STAR            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp MINUS      &kp COLON  &kp AT
- &trans       &kp HASH      &kp DOLLAR          &kp PIPE          &kp TILDE  &kp GRAVE            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp PLUS           &kp PERCENT      &kp DOUBLE_QUOTES     &kp UNDER  &kp SEMICOLON  &trans
- &trans        &kp INS          &trans            &trans             &trans                       &trans  &trans  &trans                  &trans  &trans  &trans                                 &trans       &kp SINGLE_QUOTE        &trans         &trans  &trans
+ &trans         &trans          &trans          &trans           &trans          &trans            &trans                                                  &trans           &trans                &trans                 &trans        &trans         &trans  &trans
+ &trans        &kp TAB  &macro_se_unds  &macro_se_lbrc   &macro_se_rbrc  &macro_se_circ            &trans                                                  &trans  &kp EXCLAMATION                &kp LT                 &kp GT  &kp KP_EQUAL       &kp AMPS  &trans
+ &trans  &kp BACKSLASH       &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE        &kp STAR            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp MINUS      &kp COLON  &kp AT
+ &trans       &kp HASH      &kp DOLLAR        &kp PIPE        &kp TILDE       &kp GRAVE            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp PLUS           &kp PERCENT      &kp DOUBLE_QUOTES     &kp UNDER  &kp SEMICOLON  &trans
+ &trans        &kp INS          &trans          &trans           &trans                            &trans  &trans  &trans                  &trans  &trans  &trans                                 &trans       &kp SINGLE_QUOTE        &trans         &trans  &trans
             >;
         };
 
