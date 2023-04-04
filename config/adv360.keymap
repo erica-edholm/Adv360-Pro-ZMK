@@ -74,11 +74,11 @@
 
         layer_symbols {
             bindings = <
- &trans         &trans          &trans          &trans           &trans          &trans            &trans                                                  &trans           &trans                &trans                 &trans        &trans         &trans  &trans
- &trans        &kp TAB  &macro_se_unds  &macro_se_lbrc   &macro_se_rbrc  &macro_se_circ            &trans                                                  &trans  &kp EXCLAMATION                &kp LT                 &kp GT  &kp KP_EQUAL       &kp AMPS  &trans
- &trans  &kp BACKSLASH       &kp SLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE        &kp STAR            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp MINUS      &kp COLON  &kp AT
- &trans       &kp HASH      &kp DOLLAR        &kp PIPE        &kp TILDE       &kp GRAVE            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp PLUS           &kp PERCENT      &kp DOUBLE_QUOTES     &kp UNDER  &kp SEMICOLON  &trans
- &trans        &kp INS          &trans          &trans           &trans                            &trans  &trans  &trans                  &trans  &trans  &trans                                 &trans       &kp SINGLE_QUOTE        &trans         &trans  &trans
+ &trans          &trans          &trans          &trans          &trans          &trans            &trans                                                  &trans          &trans          &trans          &trans          &trans          &trans        &trans
+ &trans         &kp TAB  &macro_se_unds  &macro_se_lbrc  &macro_se_rbrc  &macro_se_circ            &trans                                                  &trans  &macro_se_exlm  &macro_se_labk  &macro_se_rabk   &macro_se_eql  &macro_se_ampr        &trans
+ &trans  &macro_se_bsls  &macro_se_slsh  &macro_se_lcbr  &macro_se_rcbr  &macro_se_astr            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_se_ques  &macro_se_lprn  &macro_se_rprn  &macro_se_mins  &macro_se_coln  &macro_se_at
+ &trans  &macro_se_hash   &macro_se_dlr  &macro_se_pipe  &macro_se_tild   &macro_se_grv            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_se_plus  &macro_se_perc  &macro_se_dquo  &macro_se_unds  &macro_se_scln        &trans
+ &trans         &kp INS          &trans          &trans          &trans                            &trans  &trans  &trans                  &trans  &trans  &trans                          &trans  &macro_se_quot          &trans          &trans        &trans
             >;
         };
 
