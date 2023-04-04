@@ -176,49 +176,49 @@ macro_se_ques: macro_se_ques{
 compatible = "zmk,behavior-macro";
 label = "macro_se_ques";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&macro se_plus>;
+bindings = <&kp LEFT_SHIFT>, <&kp KP_MINUS>;
 };
 macro_se_grv: macro_se_grv{
 compatible = "zmk,behavior-macro";
 label = "macro_se_grv";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&macro se_acut>;
+bindings = <&kp LEFT_SHIFT>, <&kp KP_EQUAL>;
 };
 macro_se_circ: macro_se_circ{
 compatible = "zmk,behavior-macro";
 label = "macro_se_circ";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&macro se_diae>;
+bindings = <&kp LEFT_SHIFT>, <&kp RBRC>;
 };
 macro_se_astr: macro_se_astr{
 compatible = "zmk,behavior-macro";
 label = "macro_se_astr";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&macro se_quot>;
+bindings = <&kp LEFT_SHIFT>, <&kp NON_US_HASH>;
 };
 macro_se_rabk: macro_se_rabk{
 compatible = "zmk,behavior-macro";
 label = "macro_se_rabk";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&macro se_labk>;
+bindings = <&kp LEFT_SHIFT>, <&kp NON_US_BSLH>;
 };
 macro_se_scln: macro_se_scln{
 compatible = "zmk,behavior-macro";
 label = "macro_se_scln";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&macro se_comm>;
+bindings = <&kp LEFT_SHIFT>, <&kp COMMA>;
 };
 macro_se_coln: macro_se_coln{
 compatible = "zmk,behavior-macro";
 label = "macro_se_coln";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&macro se_dot>;
+bindings = <&kp LEFT_SHIFT>, <&kp KP_DOT>;
 };
 macro_se_unds: macro_se_unds{
 compatible = "zmk,behavior-macro";
 label = "macro_se_unds";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&macro se_mins>;
+bindings = <&kp LEFT_SHIFT>, <&kp SLASH>;
 };
 macro_se_at: macro_se_at{
 compatible = "zmk,behavior-macro";
@@ -272,19 +272,19 @@ macro_se_bsls: macro_se_bsls{
 compatible = "zmk,behavior-macro";
 label = "macro_se_bsls";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&macro se_plus>;
+bindings = <&kp RIGHT_ALT>, <&kp KP_MINUS>;
 };
 macro_se_tild: macro_se_tild{
 compatible = "zmk,behavior-macro";
 label = "macro_se_tild";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&macro se_diae>;
+bindings = <&kp RIGHT_ALT>, <&kp RBRC>;
 };
 macro_se_pipe: macro_se_pipe{
 compatible = "zmk,behavior-macro";
 label = "macro_se_pipe";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&macro se_labk>;
+bindings = <&kp RIGHT_ALT>, <&kp NON_US_BSLH>;
 };
 macro_home: macro_home{
 compatible = "zmk,behavior-macro";
