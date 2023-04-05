@@ -4,66 +4,6 @@ label = "macro_se_sect";
 #binding-cells = <0>;
 bindings = <&kp GRAVE>;
 };
-macro_se_1: macro_se_1{
-compatible = "zmk,behavior-macro";
-label = "macro_se_1";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_1>;
-};
-macro_se_2: macro_se_2{
-compatible = "zmk,behavior-macro";
-label = "macro_se_2";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_2>;
-};
-macro_se_3: macro_se_3{
-compatible = "zmk,behavior-macro";
-label = "macro_se_3";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_3>;
-};
-macro_se_4: macro_se_4{
-compatible = "zmk,behavior-macro";
-label = "macro_se_4";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_4>;
-};
-macro_se_5: macro_se_5{
-compatible = "zmk,behavior-macro";
-label = "macro_se_5";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_5>;
-};
-macro_se_6: macro_se_6{
-compatible = "zmk,behavior-macro";
-label = "macro_se_6";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_6>;
-};
-macro_se_7: macro_se_7{
-compatible = "zmk,behavior-macro";
-label = "macro_se_7";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_7>;
-};
-macro_se_8: macro_se_8{
-compatible = "zmk,behavior-macro";
-label = "macro_se_8";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_8>;
-};
-macro_se_9: macro_se_9{
-compatible = "zmk,behavior-macro";
-label = "macro_se_9";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_9>;
-};
-macro_se_0: macro_se_0{
-compatible = "zmk,behavior-macro";
-label = "macro_se_0";
-#binding-cells = <0>;
-bindings = <&kp KP_NUMBER_0>;
-};
 macro_se_plus: macro_se_plus{
 compatible = "zmk,behavior-macro";
 label = "macro_se_plus";
@@ -116,186 +56,186 @@ macro_se_exlm: macro_se_exlm{
 compatible = "zmk,behavior-macro";
 label = "macro_se_exlm";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_1>;
+bindings = <&kp LS(KP_NUMBER_1)>;
 };
 macro_se_dquo: macro_se_dquo{
 compatible = "zmk,behavior-macro";
 label = "macro_se_dquo";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_2>;
+bindings = <&kp LS(KP_NUMBER_2)>;
 };
 macro_se_hash: macro_se_hash{
 compatible = "zmk,behavior-macro";
 label = "macro_se_hash";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_3>;
+bindings = <&kp LS(KP_NUMBER_3)>;
 };
 macro_se_curr: macro_se_curr{
 compatible = "zmk,behavior-macro";
 label = "macro_se_curr";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_4>;
+bindings = <&kp LS(KP_NUMBER_4)>;
 };
 macro_se_perc: macro_se_perc{
 compatible = "zmk,behavior-macro";
 label = "macro_se_perc";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_5>;
+bindings = <&kp LS(KP_NUMBER_5)>;
 };
 macro_se_ampr: macro_se_ampr{
 compatible = "zmk,behavior-macro";
 label = "macro_se_ampr";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_6>;
+bindings = <&kp LS(KP_NUMBER_6)>;
 };
 macro_se_slsh: macro_se_slsh{
 compatible = "zmk,behavior-macro";
 label = "macro_se_slsh";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_7>;
+bindings = <&kp LS(KP_NUMBER_7)>;
 };
 macro_se_lprn: macro_se_lprn{
 compatible = "zmk,behavior-macro";
 label = "macro_se_lprn";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_8>;
+bindings = <&kp LS(KP_NUMBER_8)>;
 };
 macro_se_rprn: macro_se_rprn{
 compatible = "zmk,behavior-macro";
 label = "macro_se_rprn";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_9>;
+bindings = <&kp LS(KP_NUMBER_9)>;
 };
 macro_se_eql: macro_se_eql{
 compatible = "zmk,behavior-macro";
 label = "macro_se_eql";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_NUMBER_0>;
+bindings = <&kp LS(KP_NUMBER_0)>;
 };
 macro_se_ques: macro_se_ques{
 compatible = "zmk,behavior-macro";
 label = "macro_se_ques";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_MINUS>;
+bindings = <&kp LS(KP_MINUS)>;
 };
 macro_se_grv: macro_se_grv{
 compatible = "zmk,behavior-macro";
 label = "macro_se_grv";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_EQUAL>;
+bindings = <&kp LS(KP_EQUAL)>;
 };
 macro_se_circ: macro_se_circ{
 compatible = "zmk,behavior-macro";
 label = "macro_se_circ";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp RBRC>;
+bindings = <&kp LS(RBRC)>;
 };
 macro_se_astr: macro_se_astr{
 compatible = "zmk,behavior-macro";
 label = "macro_se_astr";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp NON_US_HASH>;
+bindings = <&kp LS(NON_US_HASH)>;
 };
 macro_se_rabk: macro_se_rabk{
 compatible = "zmk,behavior-macro";
 label = "macro_se_rabk";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp NON_US_BSLH>;
+bindings = <&kp LS(NON_US_BSLH)>;
 };
 macro_se_scln: macro_se_scln{
 compatible = "zmk,behavior-macro";
 label = "macro_se_scln";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp COMMA>;
+bindings = <&kp LS(COMMA)>;
 };
 macro_se_coln: macro_se_coln{
 compatible = "zmk,behavior-macro";
 label = "macro_se_coln";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp KP_DOT>;
+bindings = <&kp LS(KP_DOT)>;
 };
 macro_se_unds: macro_se_unds{
 compatible = "zmk,behavior-macro";
 label = "macro_se_unds";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp SLASH>;
+bindings = <&kp LS(SLASH)>;
 };
 macro_se_at: macro_se_at{
 compatible = "zmk,behavior-macro";
 label = "macro_se_at";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_NUMBER_2>;
+bindings = <&kp RA(KP_NUMBER_2)>;
 };
 macro_se_pnd: macro_se_pnd{
 compatible = "zmk,behavior-macro";
 label = "macro_se_pnd";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_NUMBER_3>;
+bindings = <&kp RA(KP_NUMBER_3)>;
 };
 macro_se_dlr: macro_se_dlr{
 compatible = "zmk,behavior-macro";
 label = "macro_se_dlr";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_NUMBER_4>;
+bindings = <&kp RA(KP_NUMBER_4)>;
 };
 macro_se_euro: macro_se_euro{
 compatible = "zmk,behavior-macro";
 label = "macro_se_euro";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_NUMBER_5>;
+bindings = <&kp RA(KP_NUMBER_5)>;
 };
 macro_se_lcbr: macro_se_lcbr{
 compatible = "zmk,behavior-macro";
 label = "macro_se_lcbr";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_NUMBER_7>;
+bindings = <&kp RA(KP_NUMBER_7)>;
 };
 macro_se_lbrc: macro_se_lbrc{
 compatible = "zmk,behavior-macro";
 label = "macro_se_lbrc";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_NUMBER_8>;
+bindings = <&kp RA(KP_NUMBER_8)>;
 };
 macro_se_rbrc: macro_se_rbrc{
 compatible = "zmk,behavior-macro";
 label = "macro_se_rbrc";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_NUMBER_9>;
+bindings = <&kp RA(KP_NUMBER_9)>;
 };
 macro_se_rcbr: macro_se_rcbr{
 compatible = "zmk,behavior-macro";
 label = "macro_se_rcbr";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_NUMBER_0>;
+bindings = <&kp RA(KP_NUMBER_0)>;
 };
 macro_se_bsls: macro_se_bsls{
 compatible = "zmk,behavior-macro";
 label = "macro_se_bsls";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp KP_MINUS>;
+bindings = <&kp RA(KP_MINUS)>;
 };
 macro_se_tild: macro_se_tild{
 compatible = "zmk,behavior-macro";
 label = "macro_se_tild";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp RBRC>;
+bindings = <&kp RA(RBRC)>;
 };
 macro_se_pipe: macro_se_pipe{
 compatible = "zmk,behavior-macro";
 label = "macro_se_pipe";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp NON_US_BSLH>;
+bindings = <&kp RA(NON_US_BSLH)>;
 };
 macro_home: macro_home{
 compatible = "zmk,behavior-macro";
 label = "macro_home";
 #binding-cells = <0>;
-bindings = <&kp TILDE>, <&kp SLASH>;
+bindings = <&kp RA(RBRC)>, <&kp LS(KP_NUMBER_7)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
-#binding-cells = <0>;
+#binding-cells = <0>
 bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
 };
 macro_dquotes: macro_dquotes{
