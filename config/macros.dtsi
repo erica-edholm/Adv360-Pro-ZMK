@@ -218,7 +218,7 @@ macro_se_tild: macro_se_tild{
 compatible = "zmk,behavior-macro";
 label = "macro_se_tild";
 #binding-cells = <0>;
-bindings = <&kp RA(RBRC)>;
+bindings = <&kp RA(RIGHT_BRACKET)>;
 };
 macro_se_pipe: macro_se_pipe{
 compatible = "zmk,behavior-macro";
