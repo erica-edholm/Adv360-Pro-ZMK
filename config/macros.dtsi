@@ -1,4 +1,4 @@
-  macro_quotes: macro_quotes {
+   macro_quotes: macro_quotes {
     compatible = "zmk,behavior-macro";
     label = "macro_quotes";
     #binding-cells = <0>;
@@ -34,6 +34,241 @@
     #binding-cells = <0>;
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
+  macro_se_sect: macro_se_sect {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_sect";
+    #binding-cells = <0>;
+    bindings = <&kp GRAVE>;
+  };
+  macro_se_plus: macro_se_plus {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_plus";
+    #binding-cells = <0>;
+    bindings = <&kp MINUS>;
+  };
+  macro_se_acut: macro_se_acut {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_acut";
+    #binding-cells = <0>;
+    bindings = <&kp EQUAL>;
+  };
+  macro_se_diae: macro_se_diae {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_diae";
+    #binding-cells = <0>;
+    bindings = <&kp RBRC>;
+  };
+  macro_se_quot: macro_se_quot {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_quot";
+    #binding-cells = <0>;
+    bindings = <&kp NON_US_HASH>;
+  };
+  macro_se_labk: macro_se_labk{
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_labk";
+    #binding-cells = <0>;
+    bindings = <&kp NON_US_BSLH>;
+  };
+  macro_se_comm: macro_se_comm {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_comm";
+    #binding-cells = <0>;
+    bindings = <&kp COMMA>;
+  };
+  macro_se_dot: macro_se_dot {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_dot";
+    #binding-cells = <0>;
+    bindings = <&kp DOT>;
+  };
+  macro_se_mins: macro_se_mins {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_mins";
+    #binding-cells = <0>;
+    bindings = <&kp SLASH>;
+  };
+  macro_se_exlm: macro_se_exlm {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_exlm";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_1)>;
+  };
+  macro_se_dquo: macro_se_dquo {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_dquo";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_2)>;
+  };
+  macro_se_hash: macro_se_hash {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_hash";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_3)>;
+  };
+  macro_se_curr: macro_se_curr {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_curr";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_4)>;
+  };
+  macro_se_perc: macro_se_perc {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_perc";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_5)>;
+  };
+  macro_se_ampr: macro_se_ampr {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_ampr";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_6)>;
+  };
+  macro_se_slsh: macro_se_slsh {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_slsh";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_7)>;
+  };
+  macro_se_lprn: macro_se_lprn {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_lprn";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_8)>;
+  };
+  macro_se_rprn: macro_se_rprn {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_rprn";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_9)>;
+  };
+  macro_se_eql: macro_se_eql {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_eql";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NUMBER_0)>;
+  };
+  macro_se_ques: macro_se_ques {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_ques";
+    #binding-cells = <0>;
+    bindings = <&kp LS(MINUS)>;
+  };
+  macro_se_grv: macro_se_grv {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_grv";
+    #binding-cells = <0>;
+    bindings = <&kp LS(EQUAL)>;
+  };
+  macro_se_circ: macro_se_circ {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_circ";
+    #binding-cells = <0>;
+    bindings = <&kp LS(RBRC)>;
+  };
+  macro_se_astr: macro_se_astr {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_astr";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NON_US_HASH)>;
+  };
+  macro_se_rabk: macro_se_rabk {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_rabk";
+    #binding-cells = <0>;
+    bindings = <&kp LS(NON_US_BSLH)>;
+  };
+  macro_se_scln: macro_se_scln {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_scln";
+    #binding-cells = <0>;
+    bindings = <&kp LS(COMMA)>;
+  };
+  macro_se_coln: macro_se_coln {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_coln";
+    #binding-cells = <0>;
+    bindings = <&kp LS(DOT)>;
+  };
+  macro_se_unds: macro_se_unds {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_unds";
+    #binding-cells = <0>;
+    bindings = <&kp LS(SLASH)>;
+  };
+  macro_se_at: macro_se_at {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_at";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NUMBER_2)>;
+  };
+  macro_se_pnd: macro_se_pnd {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_pnd";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NUMBER_3)>;
+  };
+  macro_se_dlr: macro_se_dlr {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_dlr";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NUMBER_4)>;
+  };
+  macro_se_euro: macro_se_euro {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_euro";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NUMBER_5)>;
+  };
+  macro_se_lcbr: macro_se_lcbr {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_lcbr";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NUMBER_7)>;
+  };
+  macro_se_lbrc: macro_se_lbrc {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_lbrc";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NUMBER_8)>;
+  };
+  macro_se_rbrc: macro_se_rbrc {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_rbrc";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NUMBER_9)>;
+  };
+  macro_se_rcbr: macro_se_rcbr {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_rcbr";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NUMBER_0)>;
+  };
+  macro_se_bsls: macro_se_bsls {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_bsls";
+    #binding-cells = <0>;
+    bindings = <&kp RA(MINUS)>;
+  };
+  macro_se_tild: macro_se_tild {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_tild";
+    #binding-cells = <0>;
+    bindings = <&kp RA(RIGHT_BRACKET)>;
+  };
+  macro_se_pipe: macro_se_pipe {
+    compatible = "zmk,behavior-macro";
+    label = "macro_se_pipe";
+    #binding-cells = <0>;
+    bindings = <&kp RA(NON_US_BSLH)>;
+  };
+  macro_home: macro_home {
+    compatible = "zmk,behavior-macro";
+    label = "macro_home";
+    #binding-cells = <0>;
+    bindings = <&kp RA(RBKT)>, <&kp LS(NUMBER_7)>;
+  };
+
   Win_Cut: Windows_Cut {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
